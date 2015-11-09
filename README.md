@@ -1,4 +1,4 @@
-# Kadecot-PepperSample
+# Kadecot-Pepper Sample
 [Kadecot](http://kadecot.net) access sample for [Choregraphe](http://www.softbank.jp/robot/developer/tools/sdk/)  (Softbank's Pepper development environment)
 
 ![User Interface](https://raw.githubusercontent.com/SonyCSL/KadecotPepperSample/master/kadecot-choregraphe.png)
