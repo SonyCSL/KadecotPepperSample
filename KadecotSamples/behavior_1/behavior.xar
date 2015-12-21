@@ -15,7 +15,7 @@
             <BehaviorLayer name="behavior_layer1">
                 <BehaviorKeyframe name="keyframe1" index="1">
                     <Diagram scale="100">
-                        <Box name="Log" id="3" localization="8" tooltip="Prompt the message in the debug window. You can set a prefix and a priority&#x0A;for the message in the parameters." x="487" y="5">
+                        <Box name="Log" id="3" localization="8" tooltip="Prompt the message in the debug window. You can set a prefix and a priority&#x0A;for the message in the parameters." x="467" y="64">
                             <bitmap>media/images/box/print.png</bitmap>
                             <script language="4">
                                 <content>
@@ -64,7 +64,7 @@
                             </Parameter>
                         </Box>
                         <Box name="Kadecot HTTP GET" id="8" localization="8" tooltip="This box contains a basic python script and can be used to create any python script box you would like.&#x0A;&#x0A;To edit its script, double-click on it." x="327" y="9">
-                            <bitmap>media/images/box/box-python-script.png</bitmap>
+                            <bitmap>../../../../../Users/o/Dropbox/Presens/IconData/Kadecot128.png</bitmap>
                             <script language="4">
                                 <content>
                                     <![CDATA[import urllib2
@@ -101,10 +101,10 @@ class MyClass(GeneratedClass):
                             <Input name="onStart" type="3" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" />
                             <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" />
                             <Output name="onStopped" type="3" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" />
-                            <Parameter name="IP address" inherits_from_parent="0" content_type="3" value="192.168.10.206" default_value="192.168.0.1" custom_choice="0" tooltip="" id="5" />
+                            <Parameter name="IP address" inherits_from_parent="0" content_type="3" value="192.168.31.221" default_value="192.168.0.1" custom_choice="0" tooltip="" id="5" />
                         </Box>
-                        <Box name="Kadecot HTTP Path Edit" id="9" localization="8" tooltip="This box contains a basic python script and can be used to create any python script box you would like.&#x0A;&#x0A;To edit its script, double-click on it." x="148" y="9">
-                            <bitmap>media/images/box/box-python-script.png</bitmap>
+                        <Box name="Kadecot HTTP Path Edit" id="9" localization="8" tooltip="This box contains a basic python script and can be used to create any python script box you would like.&#x0A;&#x0A;To edit its script, double-click on it." x="157" y="105">
+                            <bitmap>../../../../../Users/o/Dropbox/Presens/IconData/Kadecot128.png</bitmap>
                             <script language="4">
                                 <content>
                                     <![CDATA[class MyClass(GeneratedClass):
@@ -137,14 +137,14 @@ class MyClass(GeneratedClass):
                             <Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" />
                             <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" />
                             <Output name="onStopped" type="3" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" />
-                            <Parameter name="device id" inherits_from_parent="0" content_type="1" value="6" default_value="0" min="0" max="1000" tooltip="" id="5" />
-                            <Parameter name="procedure" inherits_from_parent="0" content_type="3" value="PowerNow" default_value="PowerNow" custom_choice="0" tooltip="" id="6" />
+                            <Parameter name="device id" inherits_from_parent="0" content_type="1" value="29" default_value="0" min="0" max="1000" tooltip="" id="5" />
+                            <Parameter name="procedure" inherits_from_parent="0" content_type="3" value="getPowerHistory" default_value="getPower" custom_choice="0" tooltip="" id="6" />
                             <Parameter name="params" inherits_from_parent="0" content_type="3" value="{}" default_value="{}" custom_choice="0" tooltip="" id="7" />
                         </Box>
-                        <Link inputowner="8" indexofinput="2" outputowner="9" indexofoutput="4" />
                         <Link inputowner="9" indexofinput="2" outputowner="0" indexofoutput="2" />
-                        <Link inputowner="3" indexofinput="2" outputowner="8" indexofoutput="4" />
                         <Link inputowner="0" indexofinput="4" outputowner="3" indexofoutput="3" />
+                        <Link inputowner="3" indexofinput="2" outputowner="8" indexofoutput="4" />
+                        <Link inputowner="8" indexofinput="2" outputowner="9" indexofoutput="4" />
                     </Diagram>
                 </BehaviorKeyframe>
             </BehaviorLayer>

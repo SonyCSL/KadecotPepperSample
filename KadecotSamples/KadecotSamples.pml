@@ -93,7 +93,8 @@
         <File name="status_codes" src="lib/requests/status_codes.py" />
         <File name="structures" src="lib/requests/structures.py" />
         <File name="utils" src="lib/requests/utils.py" />
-        <File name="kadecot" src="kadecot.cbl" />
+        <File name="KadecotBox" src="KadecotBox.cbl" />
     </Resources>
     <Topics />
+    <IgnoredPaths />
 </Package>
