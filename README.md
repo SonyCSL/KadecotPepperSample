@@ -6,7 +6,8 @@
 [Pepper](http://www.softbank.jp/robot/)からスマートメーターや分電盤から提供される電力データにアクセスするためのソースコードです。
 ソニーCSLのAndroidアプリ「[Kadecot](http://kadecot.net/)」に加え、「[生活デザインアプリコンテスト](http://lifedesign-app.org/)」のサポートイベントにて配布される、「Kadecot Support Plug-in」を同一端末内に入れて動作させ、かつ「開発者モード」にチェックを入れる必要があります(通信は[JSONP API](http://kadecot.net/blog/2750/)を使って行います)。
 
-このアーカイブに含まれるのは、PowerNowとPowerHistoryの二つのprocedureへのアクセスをおこなうChoregrapheのプロジェクトです．我々の開発環境ではpythonのrequestsパッケージがインポートできなかったため，urllib2パッケージに変えたものを使用しています．(おそらく，エミュレータかChoregraphe自体のバージョン(2.0.5)が古いことが原因だと思います)
+このアーカイブに含まれるのは、getPowerとgetPowerHistoryの二つのprocedureへのアクセスをおこなうChoregrapheのプロジェクトですが、入力となる文字列を変更することで、任意のKadecotのプロパティを取得することができると思います．（上記の図ではPowerNowとPowerHistoryへのアクセスと書いてありますが、getPowerとgetPowerHistoryにSupport Plug-inの仕様が変更になっています）
+pythonのrequestsパッケージではなくurllib2パッケージを使用しています．
 
 [Kadecot HTTP Path Edit]ボックスと[Kadecot HTTP GET]ボックスが同梱したボックスライブラリ(kadecot.cbl)にあります．
 [Kadecot HTTP Path Edit]ボックスは，KadecotのHTTP GETアクセス時のパスを出力します．
